@@ -49,7 +49,7 @@ const Header = () => {
             <div className="col-5">
               <div className="header-upper-links d-flex algin-items-center justify-content-between">
                 <div>
-                  <Link className="d-flex algin-items-center gap-10 text-white">
+                  <Link className="link-text d-flex algin-items-center gap-10 text-white">
                     <img
                       src="images/compare.svg"
                       alt="Double arrow circle"
@@ -60,7 +60,7 @@ const Header = () => {
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-items-center gap-10 text-white">
+                  <Link className="link-text d-flex align-items-center gap-10 text-white">
                     <img src="images/wishlist.svg" alt="Heart"></img>
                     <p className="mb-0">
                       Favourite <br /> Wishlist
@@ -68,7 +68,7 @@ const Header = () => {
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-items-center gap-10 text-white">
+                  <Link className="link-text d-flex align-items-center gap-10 text-white">
                     <img src="images/user.svg" alt="User"></img>
                     <p className="mb-0">
                       Login <br /> My Account
@@ -76,7 +76,7 @@ const Header = () => {
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-items-center gap-10 text-white">
+                  <Link className="link-text d-flex align-items-center gap-10 text-white">
                     <img src="images/cart.svg" alt="Cart" />
                     <div className="d-flex flex-column gap-10">
                       <span className="badge bg-white text-dark">0</span>
